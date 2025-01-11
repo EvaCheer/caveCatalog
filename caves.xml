@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cavesCat.xsl"?>
+
+<cavesInBulgaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="caves.xsd">
+    <cavesList>
+        <cave>
+            <id>1</id>
+            <name>Леденика</name>
+            <alternativeNames>
+                <alternativeName>Леденица</alternativeName>
+                <alternativeName>Леденик</alternativeName>
+                <alternativeName>Леденикът</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>1356</BFSpNumber>
+            <regionAndCaveNumber>203141</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="12259">
+                    <province>Врачанска област</province>
+                    <municipality>Враца</municipality>
+                    <settlement>гр.Враца</settlement>
+                </administrative>
+                <geographical>
+                    <region>Старопланинска област</region>
+                    <regionId>102</regionId>
+                    <area>Врачански район</area>
+                    <locality>Леденишки увал</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Пропастна пещера</morphologicalType>
+                <morphologicalTypeID>200</morphologicalTypeID>
+                <levelOfHumidity>Влажна, С лед</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">320</length>
+                    <denivelation unitOfMeasurement="meters">37</denivelation>
+                    <depth unitOfMeasurement="meters">14</depth>
+                    <altitude unitOfMeasurement="meters">871</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-06-20</date>
+                    <timeOfDay>10:00:00</timeOfDay>
+                    <guide>Анна Георгиева</guide>
+                    <pricing>
+                        <adultPrice>28</adultPrice>
+                        <childrenPrice>14</childrenPrice>
+                        <studentPrice>19</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-08-12</date>
+                    <timeOfDay>15:30:00</timeOfDay>
+                    <guide>Иван Петров</guide>
+                    <pricing>
+                        <adultPrice>30</adultPrice>
+                        <childrenPrice>15</childrenPrice>
+                        <studentPrice>20</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+        <cave>
+            <id>2</id>
+            <name>Дяволското гърло</name>
+            <alternativeNames>
+                <alternativeName>Хърлога</alternativeName>
+                <alternativeName>Харлога</alternativeName>
+                <alternativeName>Клокотник</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0792</BFSpNumber>
+            <regionAndCaveNumber>408003</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="73105">
+                    <province>Смолянска област</province>
+                    <municipality>Община Девин</municipality>
+                    <settlement>с.Триград</settlement>
+                </administrative>
+                <geographical>
+                    <region>Рило-Родопска област</region>
+                    <regionId>104</regionId>
+                    <area>Триградски район</area>
+                    <locality>Триградско ждрело</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Пропастна пещера</morphologicalType>
+                <morphologicalTypeID>200</morphologicalTypeID>
+                <levelOfHumidity>Водна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">548</length>
+                    <denivelation unitOfMeasurement="meters">102</denivelation>
+                    <depth unitOfMeasurement="meters">102</depth>
+                    <altitude unitOfMeasurement="meters">1054</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-06-22</date>
+                    <timeOfDay>09:00:00</timeOfDay>
+                    <guide>Петя Иванова</guide>
+                    <pricing>
+                        <adultPrice>24</adultPrice>
+                        <childrenPrice>12</childrenPrice>
+                        <studentPrice>17</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-06-23</date>
+                    <timeOfDay>13:00:00</timeOfDay>
+                    <guide>Борислав Колев</guide>
+                    <pricing>
+                        <adultPrice>26</adultPrice>
+                        <childrenPrice>13</childrenPrice>
+                        <studentPrice>18</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-06-24</date>
+                    <timeOfDay>16:00:00</timeOfDay>
+                    <guide>Кристина Петрова</guide>
+                    <pricing>
+                        <adultPrice>22</adultPrice>
+                        <childrenPrice>11</childrenPrice>
+                        <studentPrice>16</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+        <cave>
+            <id>3</id>
+            <name>Духлата</name>
+            <alternativeNames>
+                <alternativeName>Дулата</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0946</BFSpNumber>
+            <regionAndCaveNumber>303002</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="5760">
+                    <province>Пернишка област</province>
+                    <municipality>Община Перник</municipality>
+                    <settlement>с. Боснек</settlement>
+                </administrative>
+                <geographical>
+                    <region>Крайщенско-Тракийска област</region>
+                    <regionId>103</regionId>
+                    <area>Голобърдско-Боснешки район</area>
+                    <locality>Голяма могила</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Пропастна пещера</morphologicalType>
+                <morphologicalTypeID>200</morphologicalTypeID>
+                <levelOfHumidity>Суха, Влажна, Водна, Периодично водна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">18200</length>
+                    <denivelation unitOfMeasurement="meters">73</denivelation>
+                    <depth unitOfMeasurement="meters">73</depth>
+                    <altitude unitOfMeasurement="meters">992</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-12-06</date>
+                    <timeOfDay>10:30:00</timeOfDay>
+                    <guide>Михаил Димитров</guide>
+                    <pricing>
+                        <adultPrice>27</adultPrice>
+                        <childrenPrice>14</childrenPrice>
+                        <studentPrice>19</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-06-28</date>
+                    <timeOfDay>14:00:00</timeOfDay>
+                    <guide>Силвия Николова</guide>
+                    <pricing>
+                        <adultPrice>25</adultPrice>
+                        <childrenPrice>13</childrenPrice>
+                        <studentPrice>18</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-06-27</date>
+                    <timeOfDay>09:30:00</timeOfDay>
+                    <guide>Александър Стоянов</guide>
+                    <pricing>
+                        <adultPrice>30</adultPrice>
+                        <childrenPrice>15</childrenPrice>
+                        <studentPrice>20</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+        <cave>
+            <id>4</id>
+            <name>Бачо Киро</name>
+            <alternativeNames>
+                <alternativeName>Мечата дупка</alternativeName>
+                <alternativeName>Малката</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0512</BFSpNumber>
+            <regionAndCaveNumber>214022</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="23947">
+                    <province>Габровска област</province>
+                    <municipality>Община Дряново</municipality>
+                    <settlement>гр. Дряново</settlement>
+                </administrative>
+                <geographical>
+                    <region>Старопланинска област</region>
+                    <regionId>102</regionId>
+                    <area>Стражанско-Дебелдялски район</area>
+                    <locality>х.Бачо Киро</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Етажна пещера</morphologicalType>
+                <morphologicalTypeID>202</morphologicalTypeID>
+                <levelOfHumidity>Суха, влажна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">3260</length>
+                    <denivelation unitOfMeasurement="meters">65</denivelation>
+                    <depth unitOfMeasurement="meters">65</depth>
+                    <altitude unitOfMeasurement="meters">335</altitude>
+                </measurements>
+            </characteristics>
+            <tours></tours>
+        </cave>
+        <cave>
+            <id>5</id>
+            <name>Деветашка пещера</name>
+            <alternativeNames>
+                <alternativeName>Окната</alternativeName>
+                <alternativeName>Маарата</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0517</BFSpNumber>
+            <regionAndCaveNumber>212012</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="20420">
+                    <province>Ловешка област</province>
+                    <municipality>Община Ловеч</municipality>
+                    <settlement>с. Деветаки</settlement>
+                </administrative>
+                <geographical>
+                    <region>Старопланинска област</region>
+                    <regionId>102</regionId>
+                    <area>Деветашки район</area>
+                    <locality>Маарата</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Изворна пещера</morphologicalType>
+                <morphologicalTypeID>201</morphologicalTypeID>
+                <levelOfHumidity>Влажна, водна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">2442</length>
+                    <denivelation unitOfMeasurement="meters">121</denivelation>
+                    <depth unitOfMeasurement="meters">25</depth>
+                    <altitude unitOfMeasurement="meters">126</altitude>
+                </measurements>
+            </characteristics>
+            <tours></tours>
+        </cave>
+        <cave>
+            <id>6</id>
+            <name>Ягодинска</name>
+            <alternativeNames>
+                <alternativeName>Имамова дупка</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0412</BFSpNumber>
+            <regionAndCaveNumber>408001</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="87223">
+                    <province>Смолянска област</province>
+                    <municipality>Община Борино</municipality>
+                    <settlement>с. Ягодина</settlement>
+                </administrative>
+                <geographical>
+                    <region>Рило-Родопска област</region>
+                    <regionId>104</regionId>
+                    <area>Триградски район</area>
+                    <locality>Рид Балабаница</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Пропастна пещера</morphologicalType>
+                <morphologicalTypeID>200</morphologicalTypeID>
+                <levelOfHumidity>Суха, водна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">8501</length>
+                    <denivelation unitOfMeasurement="meters">36</denivelation>
+                    <depth unitOfMeasurement="meters">36</depth>
+                    <altitude unitOfMeasurement="meters">1028</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-06-27</date>
+                    <timeOfDay>11:00:00</timeOfDay>
+                    <guide>Радослав Василев</guide>
+                    <pricing>
+                        <adultPrice>23</adultPrice>
+                        <childrenPrice>12</childrenPrice>
+                        <studentPrice>17</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-06-09</date>
+                    <timeOfDay>15:00:00</timeOfDay>
+                    <guide>Виктория Георгиева</guide>
+                    <pricing>
+                        <adultPrice>28</adultPrice>
+                        <childrenPrice>14</childrenPrice>
+                        <studentPrice>19</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+        <cave>
+            <id>7</id>
+            <name>Снежанка</name>
+            <alternativeNames></alternativeNames>
+            <BFSpNumber>1960</BFSpNumber>
+            <regionAndCaveNumber>406007</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="56277">
+                    <province>Област Пещера</province>
+                    <municipality>Община Пещера</municipality>
+                    <settlement>гр.Пещера</settlement>
+                </administrative>
+                <geographical>
+                    <region>Рило-Родопска област</region>
+                    <regionId>104</regionId>
+                    <area>Пещерски район</area>
+                    <locality>Лилова скала</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Наклонена пещера</morphologicalType>
+                <morphologicalTypeID>203</morphologicalTypeID>
+                <levelOfHumidity>Суха, влажна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">368</length>
+                    <denivelation unitOfMeasurement="meters">18</denivelation>
+                    <depth unitOfMeasurement="meters">18</depth>
+                    <altitude unitOfMeasurement="meters">901</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-06-17</date>
+                    <timeOfDay>09:00:00</timeOfDay>
+                    <guide>Дилян Косев</guide>
+                    <pricing>
+                        <adultPrice>20</adultPrice>
+                        <childrenPrice>10</childrenPrice>
+                        <studentPrice>15</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-05-10</date>
+                    <timeOfDay>11:30:00</timeOfDay>
+                    <guide>Марина Петкова</guide>
+                    <pricing>
+                        <adultPrice>25</adultPrice>
+                        <childrenPrice>12</childrenPrice>
+                        <studentPrice>18</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+        <cave>
+            <id>8</id>
+            <name>Магура</name>
+            <alternativeNames>
+                <alternativeName>Рабишката пещера</alternativeName>
+            </alternativeNames>
+            <BFSpNumber>0876</BFSpNumber>
+            <regionAndCaveNumber>201004</regionAndCaveNumber>
+            <location>
+                <administrative EKATTENumber="61011">
+                    <province>Видинска област</province>
+                    <municipality>община Белоградчик</municipality>
+                    <settlement>с. Рабиша</settlement>
+                </administrative>
+                <geographical>
+                    <region>Старопланинска област</region>
+                    <regionId>102</regionId>
+                    <area>Белоградчишки район</area>
+                    <locality>Рабишка могила</locality>
+                </geographical>
+            </location>
+            <characteristics>
+                <morphologicalType>Етажна пещера</morphologicalType>
+                <morphologicalTypeID>202</morphologicalTypeID>
+                <levelOfHumidity>Суха, влажна</levelOfHumidity>
+                <measurements>
+                    <length unitOfMeasurement="meters">3435</length>
+                    <denivelation unitOfMeasurement="meters">69</denivelation>
+                    <depth unitOfMeasurement="meters">25</depth>
+                    <altitude unitOfMeasurement="meters">431</altitude>
+                </measurements>
+            </characteristics>
+            <tours>
+                <tour>
+                    <date>2025-06-30</date>
+                    <timeOfDay>10:00:00</timeOfDay>
+                    <guide>Десислава Костова</guide>
+                    <pricing>
+                        <adultPrice>26</adultPrice>
+                        <childrenPrice>13</childrenPrice>
+                        <studentPrice>18</studentPrice>
+                    </pricing>
+                </tour>
+                <tour>
+                    <date>2025-07-01</date>
+                    <timeOfDay>14:30:00</timeOfDay>
+                    <guide>Николай Тодоров</guide>
+                    <pricing>
+                        <adultPrice>29</adultPrice>
+                        <childrenPrice>15</childrenPrice>
+                        <studentPrice>20</studentPrice>
+                    </pricing>
+                </tour>
+            </tours>
+        </cave>
+    </cavesList>
+
+
+    <regionsList>
+        <regionInfo>
+            <regionName>Дунавска равнина</regionName>
+            <reg regRef="Дунавска равнина" regIdRef="101" />
+        </regionInfo>
+        <regionInfo>
+            <regionName>Старопланинска област</regionName>
+            <reg regRef="Старопланинска област" regIdRef="102" />
+        </regionInfo>
+        <regionInfo>
+            <regionName>Крайщенско-Тракийска област</regionName>
+            <reg regRef="Крайщенско-Тракийска област" regIdRef="103" />
+        </regionInfo>
+        <regionInfo>
+            <regionName>Рило-родопска област</regionName>
+            <reg regRef="Рило-родопска област" regIdRef="104" />
+        </regionInfo>
+        <regionInfo>
+            <regionName>Черноморска област</regionName>
+            <reg regRef="Черноморска област" regIdRef="105" />
+        </regionInfo>
+    </regionsList>
+    <morphologicalTypesList>
+        <morphologicalTypeInfo>
+            <morphologicalType>Пропастна пещера</morphologicalType>
+            <type typeRef="Пропастна пещера" typeIDRef="200" />
+        </morphologicalTypeInfo>
+        <morphologicalTypeInfo>
+            <morphologicalType>Изворна пещера</morphologicalType>
+            <type typeRef="Изворна пещера" typeIDRef="201" />
+        </morphologicalTypeInfo>
+        <morphologicalTypeInfo>
+            <morphologicalType>Етажна пещера</morphologicalType>
+            <type typeRef="Етажна пещера" typeIDRef="202" />
+        </morphologicalTypeInfo>
+        <morphologicalTypeInfo>
+            <morphologicalType>Наклонена пещера</morphologicalType>
+            <type typeRef="Наклонена пещера" typeIDRef="203" />
+        </morphologicalTypeInfo>
+    </morphologicalTypesList>
+</cavesInBulgaria>

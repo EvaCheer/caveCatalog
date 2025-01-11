@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cavesInBulgaria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cavesList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cave" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:string" />
+                                        <xs:element name="name" type="xs:string" />
+                                        <xs:element name="alternativeNames">
+                                            <xs:complexType>
+                                                <xs:sequence minOccurs="0">
+                                                    <xs:element name="alternativeName" minOccurs="0"
+                                                        type="xs:string"
+                                                        maxOccurs="unbounded" />
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="BFSpNumber" type="xs:string" />
+                                        <xs:element name="regionAndCaveNumber" type="xs:string" />
+                                        <xs:element name="location">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="administrative">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="province"
+                                                                    type="xs:string" />
+                                                                <xs:element name="municipality"
+                                                                    type="xs:string" />
+                                                                <xs:element name="settlement"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                            <xs:attribute name="EKATTENumber"
+                                                                type="xs:integer" use="required" />
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="geographical">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="region"
+                                                                    type="xs:string" />
+                                                                <xs:element name="regionId"
+                                                                    type="xs:string" />
+                                                                <xs:element name="area"
+                                                                    type="xs:string" />
+                                                                <xs:element name="locality"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="characteristics">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="morphologicalType"
+                                                        type="xs:string" />
+                                                    <xs:element name="morphologicalTypeID"
+                                                        type="xs:string" />
+                                                    <xs:element name="levelOfHumidity"
+                                                        type="xs:string" />
+                                                    <xs:element name="measurements">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="length">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension
+                                                                                base="xs:string">
+                                                                                <xs:attribute
+                                                                                    name="unitOfMeasurement"
+                                                                                    use="required"
+                                                                                    fixed="meters" />
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="denivelation">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension
+                                                                                base="xs:string">
+                                                                                <xs:attribute
+                                                                                    name="unitOfMeasurement"
+                                                                                    use="required"
+                                                                                    fixed="meters" />
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="depth">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension
+                                                                                base="xs:string">
+                                                                                <xs:attribute
+                                                                                    name="unitOfMeasurement"
+                                                                                    use="required"
+                                                                                    fixed="meters" />
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="altitude">
+                                                                    <xs:complexType>
+                                                                        <xs:simpleContent>
+                                                                            <xs:extension
+                                                                                base="xs:string">
+                                                                                <xs:attribute
+                                                                                    name="unitOfMeasurement"
+                                                                                    use="required"
+                                                                                    fixed="meters" />
+                                                                            </xs:extension>
+                                                                        </xs:simpleContent>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="tours">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tour" minOccurs="0"
+                                                        maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="date"
+                                                                    type="xs:date" />
+                                                                <xs:element name="timeOfDay"
+                                                                    type="xs:time" />
+                                                                <xs:element name="guide"
+                                                                    type="xs:string" />
+                                                                <xs:element name="pricing">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element
+                                                                                name="adultPrice"
+                                                                                type="xs:decimal" />
+                                                                            <xs:element
+                                                                                name="childrenPrice"
+                                                                                type="xs:decimal" />
+                                                                            <xs:element
+                                                                                name="studentPrice"
+                                                                                type="xs:decimal" />
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="regionsList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="regionInfo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="regionName" type="xs:string" />
+                                        <xs:element name="reg">
+                                            <xs:complexType>
+                                                <xs:attribute name="regRef" use="required" />
+                                                <xs:attribute name="regIdRef" type="xs:integer"
+                                                    use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="morphologicalTypesList">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="morphologicalTypeInfo" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="morphologicalType" type="xs:string" />
+                                        <xs:element name="type">
+                                            <xs:complexType>
+                                                <xs:attribute name="typeRef" use="required" />
+                                                <xs:attribute name="typeIDRef" type="xs:integer"
+                                                    use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
